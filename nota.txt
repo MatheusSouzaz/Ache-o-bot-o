@@ -1,0 +1,14 @@
+Esse é um pequeno projeto que fiz usando html,css e js.
+Meu principal objetivo com ele foi revisar as tags,seletores e funções do js de uma forma
+mais interativa e divertida.
+Obviamente não pretendo me tornar um desenvolvedor de jogos, porém podemos dizer que esse é
+meu primeiro jogo criado kkk.
+
+
+English:
+
+This is a small project I made using html, css and js.
+My main objective with it was to review  html tags, selectors and functions in a way
+more interactive and fun.
+Obviously I don't intend to become a game developer, but we can say that this is
+my first game created lol.

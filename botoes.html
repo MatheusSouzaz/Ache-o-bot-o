@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/botoes.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/js/index.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>Encontre o botão</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <a target="_blank" href="https://github.com/MatheusSouzaz" class="logo">Matheus A. Souza</a>
+            <nav>
+                <ul class="navegacao">
+                    <li><button onclick="mostrarMensagem('Ache o botão correto para ganhar!')">Instruções</button></li>
+                    <li><button onclick="mostrarMensagem('Clique nos botões, até achar o certo!')">Dicas</button></li>
+                    <li><button onclick="mostrarMensagem('É só mudar a aba :/')">Voltar</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container2">
+            <p class="titulo">Clique no <button class="botao-chave" onclick="mostrarBotao()">botão</button></p>
+
+            <div class="botoes">
+                <button onclick="mostrarMensagem('Isso pode ser um pouco difícil, tente achar um botão com alguma dica ou guia ;/')">Botão</button>
+                <button onclick="mostrarMensagem('..do..')">Quadrado</button>
+                <button class="pequeno" onclick="mostrarMensagem('Esse botão é pequeno demais ;-;')">botão</button>
+                <button onclick="mostrarMensagem('apenas um botão ;-;')">Botão</button>
+                <button onclick="mostrarMensagem('Clique...')">A</button>
+                <button onclick="mostrarMensagem('Quantidade de lados = número')">Botão</button>
+                <button
+                    onclick="mostrarMensagem('Leia da direita para a esquerda: !odarre oãtoB ')">oãtoB</button>
+                <button onclick="mostrarMensagem('Toda letra representa um número')">Botão</button>
+                <button onclick="mostrarMensagem('That is a wrong button.')">Button</button>
+                <button onclick="mostrarMensagem('..Botão..')">Triângulo</button>
+                
+                <button onclick="mostrarMensagem('Ser ou não ser?')">Botão?</button>
+                <button onclick="mostrarMensagem('Anagrama: RRAEDO !')">oBãto</button>
+                <button onclick="mostrarMensagem('..título')">E</button>
+                <button onclick="mostrarMensagem('Aperte os botões na sequência certa!Talvez você descubra algo :p')">Botão</button>
+                <button onclick="mostrarMensagem('Traduza para árabe se quiser: الزر الخطأ')">زر</button>
+                <button onclick="mostrarMensagem('..no..')">2</button>
+
+            </div>
+            <button class="botao-secreto"
+                onclick="mostrarMensagem('Meus parabéns, você realmente conseguiu! Obrigado por participar, como agradecimento eu deixarei uma frase dita por Elon Musk: A persistência é muito importante. Você não deve desistir, a menos que seja forçado a desistir.                                                                                                            Créditos da página:                                                 Matheus Araújo de Souza                                            ')">
+                <a href="./fim.html">BOTÃO
+                ESPECIAL</a></button>
+        </div>
+    </main>
+    <audio volume="0.5" autoplay loop>
+
+        <source src="./src/audio/Undertale OST_ 054 - Hotel (320 kbps).mp3">
+    </audio>
+
+
+
+    <script src="./src/js/botoes.js"></script>
+</body>
+
+</html>
