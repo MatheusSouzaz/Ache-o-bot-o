@@ -36,15 +36,33 @@
     .botao-secreto{
         
         
-        font-size: 30px;
-        margin-top: -40px;
-        margin-bottom: 40px;
+        font-size: 26px;
+        
+    }
+    .botao-ultra-secreto{
+        
+        
+        font-size: 24px;
+       
+    }
+    .botao-super-secreto{
+        
+        
+        font-size: 20px;
+       
+    }
+    .botao-normal{
+        
+        
+        font-size: 20px;
+        
     }
 
 
 }
 
 @media(max-width:496px){
+
 
     .cabecalho{
         height: 10vh;
@@ -87,8 +105,25 @@
         
         
         font-size: 24px;
-        margin-top: -40px;
-        margin-bottom: 40px;
+      
+    }
+    .botao-ultra-secreto{
+        
+        
+        font-size: 22px;
+        
+    }
+    .botao-super-secreto{
+        
+        
+        font-size: 18px;
+        
+    }
+    .botao-normal{
+        
+        
+        font-size: 18px;
+        
     }
 }
 
@@ -146,8 +181,24 @@
         
         
         font-size: 22px;
-        margin-top: -20px;
-        margin-bottom: 20px;
+        
     }
-    
+    .botao-ultra-secreto{
+        
+        
+        font-size: 20px;
+      
+    }
+    .botao-super-secreto{
+        
+        
+        font-size: 16px;
+        
+    }
+    .botao-normal{
+        
+        
+        font-size: 16px;
+        
+    }
 }
