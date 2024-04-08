@@ -1,6 +1,6 @@
 body {
     background-color: rgba(156, 161, 165, 0.295);
-    
+
 }
 
 
@@ -13,9 +13,9 @@ body {
     color: white;
     height: 12vh;
     width: 100vw;
-    
-    
-    
+
+
+
 
 }
 
@@ -64,21 +64,21 @@ body {
 }
 
 .container a {
-    
+
     font-size: 40px;
     border-bottom: solid 0.5px black;
 }
 
-.botao-iniciar:hover{
+.botao-iniciar:hover {
     transform: scale(1.2);
     transition: 0.5s;
 }
+
 .container .botao-iniciar:hover {
-    
+
     transition: 0.4s;
     background-color: rgba(71, 238, 79, 0.438);
 
     border: solid 1px rgba(0, 0, 0, 0.74);
     border-radius: 5%;
 }
-
